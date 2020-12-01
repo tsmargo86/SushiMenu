@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(../img/unagi2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+  background-image: url(../img/6.edc1c065.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+}
+
+h1, h4 {
+  color: rgba(255, 189, 189, 0.8);
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 2px 6px 6px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+  height: 1000px;
+  background-color: rgb(144, 151, 171);
+  filter: opacity(70%);
+  box-shadow: 2px 5px 5px 10px;
+  margin-top: -150px;
+  border-radius: 20px;
+}
+
+.table p span {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: bolder;
+  margin-left: 55%;
+}
+
+.table {
+  background-color: rgb(255, 255, 255);
+  filter: invert(90%);
+}
+
+form {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #777;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-top: 2%;
+  padding-left: 2%;
+}
+
+#name, #town, #Adres, #telef, #email, #nameOfsushi, #rating, #Comment {
+  box-shadow: 1px 1px 6px 1px;
+}
+
+
+input:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.block1, .block2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#userTown, #Adres, #telef, #email {
+  width: 378px;
+  height: 30px;
+}
+
+#Comment {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  width: auto;
+}
+
+#nameOfsushi {
+  width: 100%;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 1%;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0 2% 2%;
+  margin: 0;
+}
+
+fieldset {
+  margin: 0.5em;
+  width: 95%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(127, 142, 159);
+  height: 80px;
+  box-shadow: 2px 7px 10px 10px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+}

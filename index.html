@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Задание 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Китайский ресторанчик</h1>
+    <h4>Круглосуточная доставка еды</h4>
+  </header>
+  <main>
+    <div class="table">
+      <p><span>Меню</span></p>
+    </div>
+    <form>
+      <div>
+        <label>
+          <span>Имя:</span>
+          <input type="text" id="name" name="userName" placeholder="Введите свое имя"/>
+        </label>
+      </div>
+      <div class="block1">
+        <div>
+          <label>
+            <span>Город:</span>
+            <input type="text" name="town" id="userTown" list="townSuggestions"/>
+              <datalist id="townSuggestions">
+                  <option>Краматорск</option>
+                  <option>Дружковка</option>
+                  <option>Славянск</option>
+                  <option>Константиновка</option>
+                  <option>Николаевка</option>
+                  <option>Южный Лиман</option>
+                  <option>Сятогорск</option>
+                  <option>Часов Яр</option>
+                  <option>Александровка</option>
+                  <option>Андреевка</option>
+              </datalist>
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>Адрес:</span>
+            <input type="text" id="Adres" name="userAdres" placeholder="Введите адрес"/>
+          </label>
+        </div>
+      </div>
+      <div class="block2">
+        <div>
+          <label>
+            <span>Телефон:</span>
+            <input type="text" id="telef" name="userTelef"/>
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>Email:</span>
+            <input type="email" id="email" name="userEmail" />
+          </label>
+        </div>
+      </div>
+      <div>
+        <label>
+          <span>Список выбора вида суши:</span>
+          <select id="nameOfsushi" name="nameOfsushi">
+            <option>Сет Филадельфия</option>
+            <option>Сет Фри</option>
+            <option>Сет Калифорния</option>
+            <option>Сет Ямакаси</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Количество палочек:</span>
+          <input type="number" name="userRating" id="rating" min="1" max="15" step="1">
+        </label>
+      </div>
+      <fieldset>
+        <legend>Вид палочек:</legend>
+        <ul>
+          <li>
+            <label>
+              <span>Обычные</span>
+              <input type="radio" id="normal" name="size" value="Обычные" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>Учебные</span>
+              <input type="radio" id="new" name="size" value="Учебные" />
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Нужно ли класть салфетки?</legend>
+        <ul>
+          <li>
+            <label>
+              <span>Да</span>
+              <input type="radio" id="yes" name="size" value="Да" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>Нет</span>
+              <input type="radio" id="no" name="size" value="Нет" />
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <div>
+        <label>
+          <span>Комментарий:</span>
+          <input type="text" id="Comment" name="userComm" placeholder="Комментарий"/>
+        </label>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p>Номер Телефона для заказа: 095-ххх-хх-хх</p>
+  </footer>
+
+</body>
+</html>
